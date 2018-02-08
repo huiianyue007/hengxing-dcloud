@@ -1,0 +1,435 @@
+/*HTML的背景颜色和字体*/
+html,body{
+	height:100%;
+	font-family: "Hiragino Sans GB";
+	background-color: #f8f8f8 !important;
+}
+li{
+	list-style:none;
+}
+.mui-content{
+	background-color: #F8F8F8;
+}
+/*字体图标的大小*/
+.sex-icon {
+    font-size: 13px !important;
+    padding-left: 1px !important;
+}
+.scenic-icon {
+	font-size: 13px !important;
+}
+.place-icon {
+	font-size: 13px !important;
+}
+/*清除浮动*/
+.clear{
+	clear: both;
+}
+/*头部*/
+header{
+	background-color: #F8F8F8;
+}
+header .mui-title{
+	font-size: 18px !important;
+	color: #333333 !important;
+}
+header a{
+	color: #333333;
+}
+img{max-width:100%;height:auto;}
+.mui-bar .mui-btn-link {
+    font-size: 16px;
+    color: #00bcd6;
+}
+/*橙色字颜色*/
+.orange-word{
+	color: #fca532;
+}
+/*蓝色字颜色*/
+.blue-word{
+	color: #6abbd4;
+}
+/*商品价格*/
+.service-price{
+	font-size: 18px;
+	color: #ff8518;
+}
+/*顶部导航标题*/
+.nav-title{
+	font-size: 18px;
+	color: #333333;
+}
+/*重要文字*/
+.important-word{
+	font-size: 15px;
+	color: #333;
+}
+/*辅助文案*/
+.fuzhu-word{
+	font-size: 12px;
+	color: #666;
+}
+.fuzhu-ruoword{
+	font-size: 12px;
+	color: #999;
+}
+/*内容文字*/
+.content-word{
+	color: #666;
+	font-size: 14px;
+}
+/*上下分割线*/
+.border-t,
+.border-b {
+    position: relative;
+}
+.border-t:before,
+.border-b:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #d7d7d7;
+    right: 0;
+    height: 1px;
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+.border-b:after {
+    top: auto;
+    bottom: 0;
+}
+/*橙色按钮 (橙色按钮用的是类为mui-btn-warning的按钮)*/
+.mui-btn-warning{
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  background-color: #fca532;
+  height: 49px;
+  line-height: 39px;
+  border-radius: 0px;
+}
+.mui-btn-warning.mui-active, .mui-btn-warning:active {
+	color: #ffffff;
+	background-color: #cd9139;
+	border:none;
+}
+/*蓝色按钮 (蓝色按钮用的是类为mui-btn-primary的按钮)*/
+.mui-btn-primary{
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  background-color: #00BCD6;
+  height: 49px;
+  line-height: 39px;
+  border-radius: 0px;
+}
+.mui-btn-primary.mui-active, .mui-btn-primary:active {
+	color: #ffffff;
+	background-color: #008395;
+	border:none;
+}
+/*一般按鈕(一般按鈕用的是类为mui-btn-danger的按钮)*/
+.mui-btn-danger{
+  color: #333;
+  font-size: 18px;
+  border: 1px solid #D7D7D7;
+  background-color: #FFFFFF;
+  height: 49px;
+  line-height: 39px;
+  border-radius: 0px;
+}
+.mui-btn-danger.mui-active, .mui-btn-danger:active {
+	color: #ffffff;
+	border: 1px solid #BCBCBC;
+	background-color: #bcbcbc;
+}
+/*按鈕禁用*/
+.jin-btn{
+	color: #999999;
+	background-color: #e5e5e5;
+	border: none;
+}
+/*多选控件*/
+	/*未选中*/
+.mui-checkbox input[type=checkbox]:before, .mui-radio input[type=radio]:before {
+  color: #d7d7d7;
+}
+  	/*选中状态*/
+ .mui-checkbox input[type=checkbox]:checked:before, .mui-radio input[type=radio]:checked:before {
+  	color: #00BCD6;
+}
+/*删除控件*/
+.delete-icon{
+	color: #dd0000;
+	font-size: 22px;
+}
+/*加减控件*/
+.add-color{
+	color: #00BCD6;
+}
+.reduce-color{
+	color: #D7D7D7;
+}
+/*页面的标准左右间距*/
+body-padding{
+	padding: 0 10px;
+}
+/*搜索input框的样式*/
+.mui-search{
+	margin-top: 2px;
+}
+.mui-search .mui-placeholder {
+    font-size: 14px;
+    text-align: left;
+    padding-left: 5px;
+    line-height: 37px;
+}
+.search-cancle{
+	font-size: 15px;
+	color: #00bcd6;
+	line-height: 45px;
+	display: inline-block;
+	text-align: right;
+	/*padding-right: 10px;*/
+	text-align: right;
+}
+/*.mui-search .mui-placeholder .mui-icon {
+    font-size: 18px;
+    color: #333;
+}*/
+input[type=search] {
+    font-size: 14px;
+    text-align: left;
+    border: 1px solid #D7D7D7;
+    border-radius: 30px;
+    padding-top: 13px;
+    background-color: #fff;
+}
+/*景点地导页面搜索结果列表*/
+.mui-table-view-cell{
+	padding: 15px 10px;
+	color: #333;
+	height: 44px;
+	font-size: 14px;
+}
+.mui-table-view:before {
+    background-color: #f8f8f8;
+}
+.mui-table-view:after {
+    background-color: #f8f8f8;
+}
+.searchlist-item{
+	height: 72px;
+	padding: 4px 11px 0px 11px;
+}
+.mui-table-view .mui-media-object {
+    line-height: 42px;
+    max-width: 50px;
+    height: 50px;
+}
+.search-img{
+	margin-top: 22px;
+}
+.mui-table-view-cell>a:not(.mui-btn) {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: -19px -11px;
+    padding: inherit;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: inherit;
+}
+.mui-navigate-right:after, .mui-push-right:after {
+    right: 10px;
+    content: '\E583';
+}
+/*搜索城市结果*/
+.searchplace-body{
+	margin-top: 11px;
+}
+.place-name{
+	height: 72px;
+	vertical-align: middle;
+	word-wrap: break-word;
+	display: table-cell;
+}
+/*搜索景点结果*/
+.searchsecnic-body{
+	margin-top: 26px !important;
+}
+/*搜索地导结果*/
+.searchfuwu-body{
+	margin-top: 16px !important;
+}
+/*城市列表搜索页面*/
+.mui-table-view-divider:before {
+    background-color: #D7D7D7;
+}
+.mui-table-view-divider{
+	height: 42px;
+	padding-left: 10px;
+	line-height: 32px;
+	font-size: 14px;
+	color: #999;
+	background-color: #F8F8F8;
+}
+.mui-table-view-cell:after {
+    left: 10px;
+    right: 10px;
+    background-color: #D7D7D7;
+}
+.mui-indexed-list-bar {
+    background-color: transparent !important;
+    width: 30px !important;
+}
+/*地导列表、收藏列表、订单列表类似样式*/
+.icon-size12{
+	font-size: 12px;
+}
+.didao-item{
+	background-color: #fff;
+	margin-top: 10px;
+	border-bottom: 1px solid #f8f8f8;
+}
+.didao-ziliao{
+	height: 39px;
+	line-height: 39px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.didao-pic{
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+.didao-name{
+	font-size: 14px;
+	color: #999;
+	padding-left: 3px;
+}
+.didao-femalesex{
+	color: #f994aa;
+	padding-left: 1px;
+}
+.didao-malesex{
+	color: #00bcd6;
+	padding-left: 1px;
+}
+.didao-pingfen{
+	color: #00bcd4;
+	font-size: 15px;
+	float: right;
+}
+.didao-fuwu{
+	padding:10px;
+}
+.fuwu-icon{
+	font-size: 12px;
+}
+.didao-fuwutitle{
+	font-size: 17px;
+	color: #333;
+	width:75%;
+	text-overflow:ellipsis !important;
+	overflow:hidden;
+	white-space:nowrap;
+}
+.didao-fuwujingdian{
+	font-size: 12px;
+	color: #333;
+	margin-top: 5px;
+	width:75%;
+	text-overflow:ellipsis !important;
+	overflow:hidden;
+	white-space:nowrap;
+}
+.didao-fuwuxiangmu{
+	font-size: 12px;
+	color: #999;
+	margin-top: 5px;
+	width:75%;
+	text-overflow:ellipsis !important;
+	overflow:hidden;
+	white-space:nowrap;
+}
+.didao-fuwudidian{
+	font-size: 12px;
+	color: #999;
+}
+.didao-fuwujiage{
+	float: right;
+}
+.jiageicon{
+	font-size: 12px;
+	color: #ff8518;
+}
+.jiagedanwei{
+	font-size: 14px;
+	color: #929292;
+}
+/*小蓝条标题*/
+.content-title{
+	height: 43px;
+	line-height: 43px;
+	padding: 0 10px;
+	color: #333;
+	font-size: 14px;
+}
+.content-title .content-title-pre{
+	display:inline-block;
+	width:3px;
+	height:14px;
+	background-color:#00bcd6;
+	vertical-align: middle;
+	border-radius: 3px;
+}
+.content-title .more-link{
+	color:#999;
+	font-size: 12px;
+	float:right;
+}
+/*input输入框样式*/
+input[type=text],input[type=number],input[type=password]{
+    height: 49px;
+    margin-bottom: 0px;
+    padding: 10px;
+    border: none;
+    border-radius: 0px;
+}
+input, select, textarea {
+    font-size: 14px;
+}
+/*搜索出来的景点列表和编辑服务所选的景点列表(((图片大小尺寸为288*200)))*/
+.list-template{
+	padding: 0 5px;
+}
+.jingdian-item {
+	float: left;
+    padding: 0 5px;
+    margin-top: 10px;
+}
+
+.jingdian-item-pic {
+    border-radius: 4px 4px 0 0;
+}
+
+.jingdian-item-name {
+    margin-top: -5px;
+    background-color: #fff;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 0 0 4px 4px;
+    color: #000;
+}
+#app{min-height:100%;}
+@keyframes rotate{
+	from{transform:rotate(0deg);}
+	to{transform:rotate(360deg)}
+}
